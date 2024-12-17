@@ -62,11 +62,37 @@
 #left-bottom {
   background-color: green;
 }
-@keyframes ajillah {
+@keyframes ajillah4 {
   from {
     background-color: blue;
   }
   to {
+    background-color: rgb(71, 101, 237);
+  }
+}
+@keyframes ajillah3 {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: rgb(244, 95, 66);
+  }
+}
+
+@keyframes ajillah2 {
+  from {
     background-color: yellow;
+  }
+  to {
+    background-color: rgb(255, 238, 51);
+  }
+}
+
+@keyframes ajillah1 {
+  from {
+    background-color: green;
+  }
+  to {
+    background-color: rgb(100, 210, 100);
   }
 }
