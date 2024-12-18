@@ -40,33 +40,55 @@ document.getElementById("midCircle").appendChild(midCircle_dood);
 
 midCircle_dund.addEventListener("click", startFunction);
 function startFunction() {
-  midCircle_dood.innerHTML="1"
+  midCircle_dood.innerHTML = "1";
   let random = [];
-  do {
-    let randomToo = Math.floor(Math.random() * 4) + 1;
-    if (randomToo === 4) {
-      document.getElementById("right-top").style.animation =
-        "ajillah4 1s linear";
-    } else if (randomToo === 3) {
-      document.getElementById("left-top").style.animation =
-        "ajillah3 1s linear";
-    } else if (randomToo === 2) {
-      document.getElementById("right-bottom").style.animation =
-        "ajillah2 1s linear";
-    } else if (randomToo === 1) {
-      document.getElementById("left-bottom").style.animation =
-        "ajillah1 1s linear";
-    }
-    random.push(randomToo);
-    clickButton();
-    console.log(random);
-  } while (random.length < 5);
-  {
-    console.log("hello world");
-  }
+  let randomToo = Math.floor(Math.random() * 4) + 1;
+  clickButton();
+  console.log(randomToo)
+  // do {
+  //   let randomToo = Math.floor(Math.random() * 4) + 1;
+  //   if (randomToo === 4) {
+  //     document.getElementById("right-top").style.animation =
+  //       "ajillah4 1s linear";
+  //   } else if (randomToo === 3) {
+  //     document.getElementById("left-top").style.animation =
+  //       "ajillah3 1s linear";
+  //   } else if (randomToo === 2) {
+  //     document.getElementById("right-bottom").style.animation =
+  //       "ajillah2 1s linear";
+  //   } else if (randomToo === 1) {
+  //     document.getElementById("left-bottom").style.animation =
+  //       "ajillah1 1s linear";
+  //   }
+  //   random.push(randomToo);
+  //   clickButton();
+  //   console.log(random);
+  // } while (random.length < 5);
+  // {
+  //   console.log("hello world");
+  // }
 }
-function clickButton(){
-  
+//console.log(baruundeed)
+function clickButton(event) {
+  document.getElementById("right-top").addEventListener("click", had);
+  document.getElementById("left-top").addEventListener("click", had);
+  document.getElementById("right-bottom").addEventListener("click", had);
+  document.getElementById("left-bottom").addEventListener("click", had);
+  //let b=event.target;
+}
+function had() {
+  if (zuundood === durem) {
+    console.log(true);
+    
+    buttonArray = [];
+    buttonArray.push();
+  } 
+  else {
+    console.log("buruu bna");
+    
+  }
+
+
 }
 
 // document.getElementById("right-top").style.animation="ajillah 1s linear";
