@@ -27,6 +27,9 @@ midCircle_dund.id = "midCircle_dund";
 midCircle_dund.innerHTML = "start";
 let midCircle_dood = document.createElement("div");
 midCircle_dood.id = "midCircle_dood";
+// midCircle_dood.type="number";
+// midCircle_dood.min="1";
+// midCircle_dood.max="5"
 baruundeed = 1;
 baruundood = 2;
 zuundeed = 3;
@@ -37,6 +40,7 @@ document.getElementById("midCircle").appendChild(midCircle_dood);
 
 midCircle_dund.addEventListener("click", startFunction);
 function startFunction() {
+  midCircle_dood.innerHTML="1"
   let random = [];
   do {
     let randomToo = Math.floor(Math.random() * 4) + 1;
@@ -54,11 +58,15 @@ function startFunction() {
         "ajillah1 1s linear";
     }
     random.push(randomToo);
+    clickButton();
     console.log(random);
   } while (random.length < 5);
   {
     console.log("hello world");
   }
+}
+function clickButton(){
+  
 }
 
 // document.getElementById("right-top").style.animation="ajillah 1s linear";
