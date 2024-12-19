@@ -71,7 +71,7 @@
     background-color: blue;
   }
   to {
-    background-color: rgb(71, 101, 237);
+    background-color: rgb(154, 170, 240);
   }
 }
 @keyframes ajillah3 {
@@ -79,7 +79,7 @@
     background-color: red;
   }
   to {
-    background-color: rgb(244, 95, 66);
+    background-color: rgb(231, 187, 178);
   }
 }
 
@@ -88,7 +88,7 @@
     background-color: yellow;
   }
   to {
-    background-color: rgb(255, 238, 51);
+    background-color: rgb(231, 229, 209);
   }
 }
 
@@ -97,6 +97,6 @@
     background-color: green;
   }
   to {
-    background-color: rgb(100, 210, 100);
+    background-color: rgb(199, 234, 199);
   }
 }
