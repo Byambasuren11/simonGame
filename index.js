@@ -100,6 +100,3 @@ document.querySelectorAll(".color-button").forEach((button) => {
     handlePlayerInput(button.id);
   });
 });
-
-// Start the game when the page loads
-window.onload = startGame;
