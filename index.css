@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-#maincontain {
+#mainContain {
   /* align-items: center;  */
   display: grid;
   width: 700px;
@@ -17,9 +17,6 @@
   position: relative;
   gap: 20px;
   box-shadow: 1px 5px 5px 5px rgb(115, 115, 121);
-}
-.block {
-  background-color: red;
 }
 #midCircle {
   position: absolute;
@@ -50,49 +47,52 @@
   height: 45px;
   background-color: black;
 }
-#right-top {
-  background-color: blue;
+#gameOver {
+  display: none;
 }
-#left-top {
+#leftTop {
   background-color: red;
 }
-#right-bottom {
-  background-color: yellow;
-}
-#left-bottom {
+#rightTop {
   background-color: green;
+}
+#leftBottom {
+  background-color: blue;
+}
+#rightBottom {
+  background-color: yellow;
 }
 @keyframes ajillah4 {
   from {
-    background-color: blue;
+    background-color: yellow;
   }
   to {
-    background-color: rgb(71, 101, 237);
+    background-color: rgb(239, 237, 218);
   }
 }
 @keyframes ajillah3 {
   from {
-    background-color: red;
+    background-color: blue;
   }
   to {
-    background-color: rgb(244, 95, 66);
+    background-color: rgb(191, 202, 251);
   }
 }
 
 @keyframes ajillah2 {
   from {
-    background-color: yellow;
+    background-color: green;
   }
   to {
-    background-color: rgb(255, 238, 51);
+    background-color: rgb(192, 240, 192);
   }
 }
 
 @keyframes ajillah1 {
   from {
-    background-color: green;
+    background-color: red;
   }
   to {
-    background-color: rgb(100, 210, 100);
+    background-color: rgb(245, 193, 182);
   }
 }
