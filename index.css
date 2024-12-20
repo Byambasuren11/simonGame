@@ -66,28 +66,12 @@
 #rightBottom {
   background-color: yellow;
 }
-@keyframes ajillah4 {
+@keyframes ajillah1 {
   from {
-    background-color: yellow;
+    background-color: red;
   }
   to {
-<<<<<<< HEAD
-    background-color: rgb(239, 237, 218);
-=======
-    background-color: rgb(154, 170, 240);
->>>>>>> 5ffebd77d47e48e9ae42435cd866230c4e3b96b8
-  }
-}
-@keyframes ajillah3 {
-  from {
-    background-color: blue;
-  }
-  to {
-<<<<<<< HEAD
-    background-color: rgb(191, 202, 251);
-=======
-    background-color: rgb(231, 187, 178);
->>>>>>> 5ffebd77d47e48e9ae42435cd866230c4e3b96b8
+    background-color: rgb(255, 255, 0);
   }
 }
 
@@ -96,23 +80,24 @@
     background-color: green;
   }
   to {
-<<<<<<< HEAD
-    background-color: rgb(192, 240, 192);
-=======
-    background-color: rgb(231, 229, 209);
->>>>>>> 5ffebd77d47e48e9ae42435cd866230c4e3b96b8
+    background-color: rgb(0, 255, 0);
   }
 }
 
-@keyframes ajillah1 {
+@keyframes ajillah3 {
   from {
-    background-color: red;
+    background-color: blue;
   }
   to {
-<<<<<<< HEAD
-    background-color: rgb(245, 193, 182);
-=======
-    background-color: rgb(199, 234, 199);
->>>>>>> 5ffebd77d47e48e9ae42435cd866230c4e3b96b8
+    background-color: rgb(0, 0, 255);
+  }
+}
+
+@keyframes ajillah4 {
+  from {
+    background-color: yellow;
+  }
+  to {
+    background-color: rgb(255, 255, 0);
   }
 }
